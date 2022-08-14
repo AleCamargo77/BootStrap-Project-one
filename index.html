@@ -11,20 +11,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script defer src="./scrips.js"></script>
     <link
       rel="shortcut icon"
       href="./images/FAVICON-SPACEX.png"
       type="image/x-icon"
     />
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.css"
-    />
-    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <title>Rumo a marte</title>
   </head>
   <body>
-    <div class="container mt-4 pb-2">
+    <div class="container mt-4 pb-2" id="container1">
       <div class="text-center top-logo">
         <img
           src="./images/logoOneBitDark.png"
@@ -190,9 +186,10 @@
         </button>
       </div>
     </div>
-    <footer class="m-3 text-center">
+    <footer class="m-3 text-center footer">
       <p class="h6">
-        &copy; Copyright 2022 | Desenvolvido por Alessandro Camargo
+        &copy; Copyright <span id="year"></span> | Desenvolvido por Alessandro
+        Camargo
       </p>
     </footer>
     <script

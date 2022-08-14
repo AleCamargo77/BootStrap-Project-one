@@ -11,9 +11,9 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
-.container {
+#container1 {
   background-color: $bgd-container;
-  width: 420px;
+  width: 450px;
   height: auto;
 }
 .top-logo {
@@ -29,13 +29,23 @@ body {
   }
 }
 
-@media (max-width: 436px) {
-  .container {
+@media (max-width: 466px) {
+  #container1 {
     width: 300px;
   }
+  .footer p {
+    font-size: 12px;
+  }
 }
-@media (max-width: 312px) {
-  .container {
-    width: 280px;
+@media (max-width: 340px) {
+  #container1 {
+    width: 300px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+  body {
+    background-position: center;
+    padding: 5px;
   }
 }
