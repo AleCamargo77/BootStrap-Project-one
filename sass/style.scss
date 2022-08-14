@@ -1,0 +1,41 @@
+@import "./others/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $white;
+}
+body {
+  background-image: url("../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.container {
+  background-color: $bgd-container;
+  width: 420px;
+  height: auto;
+}
+.top-logo {
+  width: 200px;
+}
+.btn-send {
+  color: $btn;
+  border: 1px solid $btn;
+
+  &:hover {
+    background-color: $btn;
+    color: $white;
+  }
+}
+
+@media (max-width: 436px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 312px) {
+  .container {
+    width: 280px;
+  }
+}

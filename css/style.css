@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  background-image: url("../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container {
+  background-color: #000;
+  width: 420px;
+  height: auto;
+}
+
+.top-logo {
+  width: 200px;
+}
+
+.btn-send {
+  color: tomato;
+  border: 1px solid tomato;
+}
+.btn-send:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
+@media (max-width: 436px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 312px) {
+  .container {
+    width: 280px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
